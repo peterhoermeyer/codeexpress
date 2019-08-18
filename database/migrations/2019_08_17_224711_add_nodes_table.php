@@ -14,7 +14,7 @@ class AddNodesTable extends Migration
     public function up()
     {
         Schema::create('node', function (Blueprint $table) {
-            $table->bigIncrements('id')->primary();
+            $table->bigIncrements('id');
             $table->string('title')->nullable();
             $table->text('content')->nullable();
             $table->bigInteger('parent_node_id')->nullable();

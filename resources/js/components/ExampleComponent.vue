@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        Hiho!
+                        Hiho! 2
                     </div>
                 </div>
             </div>
